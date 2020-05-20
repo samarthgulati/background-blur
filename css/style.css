@@ -1,0 +1,21 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  height: -webkit-fill-available;
+  margin: 0;
+  overflow: hidden;
+}
+
+#webcam {
+  opacity: 0;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scaleX(-1);
+}
